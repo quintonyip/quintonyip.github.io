@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://www.yami.blog/projects">
+    <title>Moved - Quinton Yip</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This page has moved</h1>
+        <p>Redirecting you to the new location...</p>
+    </div>
+</body>
+</html>
+```
+
+This will:
+- Automatically redirect visitors to your new site instantly
+- Show a brief "moved" message while redirecting
+- Not display the actual URL on the page
+- Work even if JavaScript is disabled (uses meta refresh)
+
+If you want a manual link as backup in case the redirect fails, you could add:
+```html
+<p>If you're not redirected, <a href="https://www.yami.blog/projects">click here</a>.</p>
+```
